@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.upper-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(29, 152, 223);
+    text-shadow: 0 2px 5px;
+}
+.search{
+    padding: 15px 100px;
+    border: 1px solid gray;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu > ul>li{
+    list-style: none;
+}
+.menu > ul>li>a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+.menu > ul>li>a:hover{
+color: rgb(29, 152, 223);
+transition: 0.5s;
+cursor: pointer;
+}
+.news{
+    
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 5px 0;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: calc(calc(100% / 3 - 40px));
+
+}
+img{
+    border-radius: 15px;
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
